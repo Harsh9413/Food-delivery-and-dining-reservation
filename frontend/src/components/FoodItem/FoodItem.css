@@ -1,0 +1,100 @@
+.food-item-info{
+    padding: 20px;
+}
+
+.food-item-name-rating p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.food-item-desc{
+    color: #393939;
+    font-size: 13px;
+   
+}
+
+.deactive{
+    opacity: 0.5;
+}
+.food-item-price{
+    color: tomato;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.food-item-image-container{
+    position: relative;
+}
+
+.food-item-image-container .add{
+    width: 35px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.food-item-counter{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.food-item-counter img{
+    width: 30px;
+} 
+
+.food-item {
+    width: 300px; /* Fixed width for all items */
+    min-height: 400px; /* Uniform height for all containers */
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    background-color: white;
+    animation: fadeIn 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.food-item-image-container {
+    width: 100%;
+    height: 200px; /* Set a consistent height */
+    overflow: hidden; /* Crop excess parts of the image */
+    border-radius: 15px 15px 0px 0px;
+}
+
+.food-item-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image scales proportionally */
+}
+
+.food-item-info {
+    flex-grow: 1; /* Pushes the content to take up available space */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .food-item {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+.food-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Ensures uniform alignment */
+}

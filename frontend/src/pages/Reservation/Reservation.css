@@ -1,0 +1,124 @@
+.res-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    margin:50px auto;
+    /* border: 2px solid  gray; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.5);
+
+
+    /* margin: 0px -150px -100px -150px ;  */
+}
+
+
+.Conform-box-active{
+    position: fixed;   
+    top: 30%;          
+    left: 35%;
+    background-color:white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+    justify-content: center; 
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.5);
+}
+
+.Conform-box-deactive{
+   display: none;
+
+}
+
+.buttons{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.Conform-box-active button{
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.res-header{
+ 
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.booknow-header{
+    margin-bottom: 40px;
+    color: tomato;
+    padding-top: 30px;
+   
+}
+
+
+.sub-header{
+    color: #262626;
+    
+}
+
+.detail-form{
+    margin:30px
+}
+
+.detail-row{
+    display: flex;
+    gap:80px;
+    margin-bottom: 50px;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fields input,select{
+    width: 300px;
+    height: 45px;
+    border: 2px solid rgb(187, 186, 186);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.fields label{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btn{
+    margin-left: 255px;
+    width:200px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    background:tomato;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.info-text{
+    text-align: left;
+    color: red;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}

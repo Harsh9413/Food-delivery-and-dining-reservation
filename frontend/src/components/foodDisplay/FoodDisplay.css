@@ -1,0 +1,27 @@
+.food-display{
+    margin-top: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+
+.food-item{
+    transition: box-shadow 0.3s ease-in-out;
+}
+.food-item:hover {
+    /* box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5); */
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.5);
+    transform: scale(1.03); 
+  }

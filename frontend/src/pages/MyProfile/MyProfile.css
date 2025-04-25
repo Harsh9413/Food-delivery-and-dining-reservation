@@ -1,0 +1,730 @@
+/* .profile-container-h {
+    background: #fef3f2; 
+    padding: 30px;
+    width: 50%;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.profile-container-h .profile-header {
+    background: #ff7f6e; 
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.profile-container-h .profile-icon {
+    background: white;
+    color: #FF6347;
+    padding: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.profile-container-h .update-info-btn{
+    background: transparent;
+    border: 1px solid #FF6347;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.profile-container-h .update-info-btn:hover {
+    background: #FF6347;
+    color: white;
+}
+
+
+.profile-container-h .profile-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.profile-container-h .profile-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease-in-out;
+}
+
+.profile-container-h .profile-item:hover {
+    transform: translateY(-3px);
+}
+
+.profile-container-h .profile-item i {
+    font-size: 20px;
+    color: #FF6347;
+    margin-right: 12px;
+}
+
+.profile-container-h .profile-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.profile-container-h .password-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.profile-container-h .password-container:hover {
+    transform: scale(1.02);
+}
+
+.profile-container-h .password-label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    gap: 8px;
+}
+
+.profile-container-h .password-label i {
+    color: #FF6347;
+    font-size: 18px;
+}
+
+.profile-container-h .update-password-btn {
+    background: transparent;
+    border: 1px solid #FF6347;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.profile-container-h .update-password-btn:hover {
+    background: #FF6347;
+    color: white;
+}
+
+.profile-container-h .password-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.profile-container-h .password-form h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-container-h .password-form label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    display: block;
+    margin-top: 10px;
+}
+
+.profile-container-h .password-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.profile-container-h .password-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.profile-container-h .save-btn {
+    background: #FF6347;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profile-container-h .save-btn:hover {
+    background: #d94c3d;
+}
+
+.profile-container-h .cancel-btn {
+    background: transparent;
+    border: 1px solid #FF6347;
+    color: #FF6347;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profile-container-h .cancel-btn:hover {
+    background: #FF6347;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .profile-container-h {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .profile-container-h .profile-details {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-container-h .password-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-container-h .update-password-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile-container-h .password-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .profile-container-h .save-btn,
+    .profile-container-h .cancel-btn {
+        width: 100%;
+    }
+} */
+
+.profile-container-h {
+    background: #fef3f2; 
+    padding: 30px;
+    width: 50%;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    position: relative; /* Added for pop-up positioning */
+}
+
+.profile-container-h .profile-header {
+    background: #ff7f6e; 
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.profile-container-h .profile-icon {
+    background: white;
+    color: #FF6347;
+    padding: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.profile-container-h .update-info-btn {
+    background: transparent;
+    border: 1px solid #FF6347;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.profile-container-h .update-info-btn:hover {
+    background: #FF6347;
+    color: white;
+}
+
+.profile-container-h .profile-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.profile-container-h .profile-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease-in-out;
+}
+
+.profile-container-h .profile-item:hover {
+    transform: translateY(-3px);
+}
+
+.profile-container-h .profile-item i {
+    font-size: 20px;
+    color: #FF6347;
+    margin-right: 12px;
+}
+
+.profile-container-h .profile-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+.profile-container-h .password-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.profile-container-h .password-container:hover {
+    transform: scale(1.02);
+}
+
+.profile-container-h .password-label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    gap: 8px;
+}
+
+.profile-container-h .password-label i {
+    color: #FF6347;
+    font-size: 18px;
+}
+
+.profile-container-h .update-password-btn {
+    background: transparent;
+    border: 1px solid #FF6347;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.profile-container-h .update-password-btn:hover {
+    background: #FF6347;
+    color: white;
+}
+
+.profile-container-h .password-form,
+.profile-container-h .update-info-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.profile-container-h .password-form h3,
+.profile-container-h .update-info-form h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-container-h .password-form label,
+.profile-container-h .update-info-form label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    display: block;
+    margin-top: 10px;
+}
+
+.profile-container-h .password-form input,
+.profile-container-h .update-info-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.profile-container-h .password-actions,
+.profile-container-h .update-info-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.profile-container-h .save-btn {
+    background: #FF6347;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profile-container-h .save-btn:hover {
+    background: #d94c3d;
+}
+
+.profile-container-h .cancel-btn {
+    background: transparent;
+    border: 1px solid #FF6347;
+    color: #FF6347;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profile-container-h .cancel-btn:hover {
+    background: #FF6347;
+    color: white;
+}
+
+/* Pop-up overlay for the update info form */
+.profile-container-h .update-info-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.profile-container-h .update-info-form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+.profile-container-h .update-info-form h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.profile-container-h .update-info-form label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    display: block;
+    margin-top: 10px;
+}
+
+.profile-container-h .update-info-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.profile-container-h .update-info-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .profile-container-h {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .profile-container-h .profile-details {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-container-h .password-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-container-h .update-password-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile-container-h .password-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .profile-container-h .save-btn,
+    .profile-container-h .cancel-btn {
+        width: 100%;
+    }
+
+    .profile-container-h .update-info-form {
+        width: 95%;
+        padding: 20px;
+    }
+}
+
+.update-info-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.update-info-form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    z-index: 1001;
+}
+
+.update-info-form h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.update-info-form .form-group {
+    margin-bottom: 15px;
+}
+
+.update-info-form .form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.update-info-form .form-group .harsh-virani input,
+.update-info-form .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FF6347;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.update-info-form .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.update-info-form .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.update-info-form .save-btn {
+    background: #FF6347;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.update-info-form .save-btn:hover {
+    background: #d94c3d;
+}
+
+.update-info-form .cancel-btn {
+    background: transparent;
+    border: 1px solid #FF6347;
+    color: #FF6347;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.update-info-form .cancel-btn:hover {
+    background: #FF6347;
+    color: white;
+}
+
+.update-info-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.update-info-form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px; /* Increased max-width for better spacing */
+    height: 75vh; /* 60% of the viewport height */
+    overflow-y: auto; /* Add scroll if content exceeds height */
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-info-form h3 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.update-info-form .form-group {
+    margin-bottom: 15px;
+}
+
+.update-info-form .form-group label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.update-info-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FF6347;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.update-info-form .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Two fields side by side */
+.update-info-form .form-row {
+    display: flex;
+    gap: 15px; /* Space between fields */
+}
+
+.update-info-form .form-row .form-group {
+    flex: 1; /* Equal width for both fields */
+}
+
+.update-info-form .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.update-info-form .save-btn {
+    background: #FF6347;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.update-info-form .save-btn:hover {
+    background: #d94c3d;
+}
+
+.update-info-form .cancel-btn {
+    background: transparent;
+    border: 1px solid #FF6347;
+    color: #FF6347;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.update-info-form .cancel-btn:hover {
+    background: #FF6347;
+    color: white;
+}
+
+.update-info-form .harsh-virani{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
